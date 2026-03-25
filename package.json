@@ -1,0 +1,21 @@
+{
+  "name": "defspace-orbital-ops",
+  "version": "7.0.0",
+  "description": "DefSpace Orbital Operations Center — Satellite Tracking & Defense Simulation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve public",
+    "build": "echo 'Static build — no bundling required'",
+    "vercel-build": "echo 'Vercel build complete'"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "satellite.js": "^5.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
